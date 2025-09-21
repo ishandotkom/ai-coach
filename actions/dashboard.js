@@ -56,7 +56,6 @@ export async function getIndustryInsights() {
 
     if (!user) throw new Error("User not found");
     if (!user.industry) {
-        toast.error("Please complete your profile first.");
         redirect("/onboarding");
     }
 
