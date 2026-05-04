@@ -94,7 +94,7 @@ export default function Home() {
       {/* Testimonial Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-bold tracking-tighter text-center mb-12">Meet Our Team</h2>
+          <h2 className="text-3xl font-bold tracking-tighter text-center mb-12">The Minds Behind</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {testimonial.map((testimonial, index) => {
               return (
